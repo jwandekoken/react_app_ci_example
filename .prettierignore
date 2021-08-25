@@ -2,3 +2,6 @@ build
 coverage
 node_modules
 package-lock.json
+.eslintrc.json
+.prettierrc.json
+.vscode/settings.json
