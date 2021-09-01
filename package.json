@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --fix src/**/*.js",
     "format:check": "prettier --check \"**/*{js,jsx,yml,json,css,scss,md}\"",
-    "format": "prettier --write \"**/*{js,jsx,yml,json,css,scss,md}\""
+    "format": "prettier --write \"**/*{js,jsx,yml,json,css,scss,md}\"",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -39,10 +40,13 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.24.0",
+    "husky": "^7.0.2",
     "prettier": "2.3.2",
     "semantic-release": "^17.4.7"
   }
