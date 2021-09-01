@@ -1,6 +1,6 @@
 {
   "branches": ["main"],
-  "repositoryYrl": "https://github.com/jwandekoken/GA_react-app-ci-example",
+  "repositoryUrl": "https://github.com/jwandekoken/GA_react-app-ci-example",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
